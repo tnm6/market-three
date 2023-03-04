@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Market Harborough </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <!--three js-->
+    <script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+
+    <script type="importmap">
+        {
+            "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.145.0/build/three.module.js",
+            "three/examples/jsm/": "https://cdn.jsdelivr.net/npm/three@0.145.0/examples/jsm/"
+            }
+        }
+    </script>
+
+    <!--gsap-->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+
+    <!--jquery-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+    <!--bootstrap js-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+    <script type="module" src="./src/main.js"></script>
+
+
+        <canvas class="three-canvas"></canvas>
+
+    <div class="col-sm-5">
+        <div class="main_container">
+                <div class="title">
+                    <h1>welland park.</h1>
+                </div>
+        </div>
+
+        <div class="story-text">
+            <p> </p>
+        </div>
+
+        <div class="elements">
+        </div>
+
+        <div class="bottom-nav">
+            <button id="prev" class="navigate"> prev  </button>
+            <button id="next" class="navigate"> next </button>
+        </div>
+
+
+    </div>
+    </div>
+
+
+
+</body>
+
+
+</html>
